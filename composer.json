@@ -1,11 +1,15 @@
 {
     "name" : "lioo19/weathermodule",
+    "type": "library",
     "description": "Module for weather, anax",
+    "keywords": ["module", "weather", "anax"],
+    "homepage": "https://github.com/Lioo19/weathermodule",
     "license": "MIT",
     "authors": [
         {
             "name": "Linnéa Olofsson",
             "email": "li0019@student.bth.se",
+            "homepage": "https://github.com/Lioo19",
             "role": "Developerstudent"
         }
     ],
