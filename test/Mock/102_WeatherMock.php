@@ -14,12 +14,10 @@ class WeatherMock extends Weather
     */
     public function fetchForecastWeather($lon, $lat, $url = "khrfkjn")
     {
-        $days = $this->getDate();
-        $day1 = $days[0];
         if (strlen($lon) > 0 && strlen($lat) > 0) {
             $data = [
                 "current" => [
-                    "dt" => "$day1",
+                    "dt" => "1606129253",
                     "temp" => "9.31",
                     "feels_like" => "9.31",
                     "weather" => [
