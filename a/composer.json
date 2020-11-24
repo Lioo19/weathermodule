@@ -1,0 +1,23 @@
+{
+    "name" : "anax/noname",
+    "description": "A me page for the ramverk1 course.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Lioo19/weathermodule"
+        }
+    ],
+    "require": {
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "lioo19/weathermodule": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
