@@ -16,10 +16,13 @@ rsync -av vendor/lioo19/weathermodule/config/ config/
 rsync -av vendor/lioo19/weathermodule/src/ src/
 rsync -av vendor/lioo19/weathermodule/test/ test/
 rsync -av vendor/lioo19/weathermodule/view/ view/
-````
+```
 
 Finally, to get it all working, modify the `config/apikeyssample.php` with valid apikeys and rename it to `apikeys.php`
 
+The Modules Ip and Weather are now available and can be accessed through `/weather` or `ip`.
+
+If you would like to add them to the navigation, please do so in the `config/navbar` catalogue.
 
 ### Dependency
 This is an Anax module and its usage is primarly intended to be together with the Anax framework.
