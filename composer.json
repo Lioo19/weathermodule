@@ -18,7 +18,7 @@
         }
     },
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.2",
         "anax/anax-ramverk1-me": "^1.0.0",
         "anax/commons": "^2.0.14",
         "anax/anax-cli": "^1.2",

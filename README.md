@@ -11,13 +11,14 @@ To install this module, use composer
 
 To setup, copy the necessary files and config
 
-```rsync -av vendor/lioo19/weathermodule/config/ config/
+```
+rsync -av vendor/lioo19/weathermodule/config/ config/
 rsync -av vendor/lioo19/weathermodule/src/ src/
 rsync -av vendor/lioo19/weathermodule/test/ test/
 rsync -av vendor/lioo19/weathermodule/view/ view/
-```
+````
 
-To get it all working, modify the config/apikeyssample.php with valid apikeys and rename it to apikeys.php
+Finally, to get it all working, modify the `config/apikeyssample.php` with valid apikeys and rename it to `apikeys.php`
 
 
 ### Dependency
