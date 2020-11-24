@@ -24,6 +24,8 @@ The Modules Ip and Weather are now available and can be accessed through `/weath
 
 If you would like to add them to the navigation, please do so in the `config/navbar` catalogue.
 
+Don't forget to run `make install`.
+
 ### Dependency
 This is an Anax module and its usage is primarly intended to be together with the Anax framework.
 
