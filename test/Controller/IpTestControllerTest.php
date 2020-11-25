@@ -23,6 +23,7 @@ class IpTestControllerTest extends TestCase
         // Init service container $di to contain $app as a service
         $di = new DIMagic();
         $di->loadServices(ANAX_INSTALL_PATH . "/config/di");
+        $di->loadServices(ANAX_INSTALL_PATH . "/test/config/di");
 
         // Create and initiate the controller
         $this->controller = new IpTestControllerMock();

@@ -21,8 +21,9 @@ class GeoControllerTest extends TestCase
         global $di;
 
         // Init service container $di to contain $app as a service
-        $di = new DIMagic();
+        $di = new DIFactoryConfig();
         $di->loadServices(ANAX_INSTALL_PATH . "/config/di");
+        $di->loadServices(ANAX_INSTALL_PATH . "/test/config/di");
 
         // Create and initiate the controller
         $this->controller = new GeoControllerMock();
@@ -53,7 +54,6 @@ class GeoControllerTest extends TestCase
         $res = $this->controller->validationActionPost();
         $this->assertIsObject($res);
 
-        $req = $di->get("request");
         $req->setPost("ipinput", "216.58.");
 
         $res = $this->controller->validationActionPost();
