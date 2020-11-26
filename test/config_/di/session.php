@@ -13,7 +13,7 @@ return [
 
                 // Load the configuration files
                 $cfg = $this->get("configuration");
-                $config = $cfg->load("test/config_/session.php");
+                $config = $cfg->load("session");
 
                 // Set session name
                 $name = $config["config"]["name"] ?? null;

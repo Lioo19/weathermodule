@@ -14,7 +14,7 @@ return [
 
                 // Load the configuration files
                 $cfg = $this->get("configuration");
-                $config = $cfg->load("test/config_/page.php");
+                $config = $cfg->load("page");
                 $file = $config["file"] ?? null;
 
                 // Add all views from configuration
