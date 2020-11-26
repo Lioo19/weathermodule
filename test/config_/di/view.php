@@ -13,7 +13,7 @@ return [
 
                 // Load the configuration files
                 $cfg = $this->get("configuration");
-                $config = $cfg->load("view.php");
+                $config = $cfg->load("test/config_/view.php");
                 $file = $config["file"] ?? null;
 
                 $paths = $config["config"]["paths"] ?? null;

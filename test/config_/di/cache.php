@@ -13,7 +13,7 @@ return [
 
                 // Load the configuration files
                 $cfg = $this->get("configuration");
-                $config = $cfg->load("cache.php");
+                $config = $cfg->load("test/config_/cache.php");
                 $file = $config["file"] ?? null;
                 $config = $config["config"] ?? null;
 

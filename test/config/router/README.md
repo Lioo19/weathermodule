@@ -1,2 +1,0 @@
-Routes as configuration style
-===================

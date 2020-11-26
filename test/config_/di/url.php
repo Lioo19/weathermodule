@@ -14,7 +14,7 @@ return [
                 $url->setStaticSiteUrl($request->getSiteUrl());
                 $url->setStaticBaseUrl($request->getBaseUrl());
                 $url->setScriptName($request->getScriptName());
-                $url->configure("url.php");
+                $url->configure("test/config_/url.php");
                 $url->setDefaultsFromConfiguration();
                 return $url;
             }

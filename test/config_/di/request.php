@@ -1,17 +1,15 @@
 <?php
 /**
- * Configuration file for DI container.
+ * Configuration file for request service.
  */
 return [
-
     // Services to add to the container.
     "services" => [
-        "response" => [
+        "request" => [
             "shared" => true,
-            //"callback" => "\Anax\Response\Response",
             "callback" => function () {
-                $obj = new \Anax\Response\ResponseUtility();
-                $obj->setDI($this);
+                $obj = new \Anax\Request\Request();
+                $obj->init();
                 return $obj;
             }
         ],

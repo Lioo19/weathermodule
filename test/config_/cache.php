@@ -4,7 +4,7 @@
  */
 return [
     // Use for styling the menu
-    //"basePath" => ANAX_APP_PATH . "/cache",
+    // "basePath" => ANAX_APP_PATH . "/cache",
     "basePath" => ANAX_INSTALL_PATH . "/cache/anax",
 
     // Default time to live until item expires
