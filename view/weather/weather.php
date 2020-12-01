@@ -71,13 +71,13 @@ namespace Anax\View;
         <input type="hidden" name="ip" value="216.58.211.142">
         <input type="submit" class="JSONbutton right" value="Fungerande">
     </form>
-    <form action=<?= url("ip-json")?>>
+    <form action=<?= url("weather-json")?>>
         <br>
         <input type="hidden" name="ip" value="216.58.21">
         <input type="submit" class="JSONbutton wrong" value="Felaktig">
     </form>
     <br>
-    <form action=<?= url("ip-json")?>>
+    <form action=<?= url("weather-json")?>>
         <label>Du kan även testa vädret genom att skriva in en egen ip:</label>
         <br>
         <input type="text" name="ip">
