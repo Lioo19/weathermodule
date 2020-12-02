@@ -19,8 +19,3 @@ if ($data) {
         var_dump($data);
 }
 ?>
-
-
-<!-- <pre>
-<?= var_dump($_POST); ?>
-<?= var_dump($data); ?> -->

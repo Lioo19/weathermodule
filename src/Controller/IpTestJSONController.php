@@ -23,7 +23,7 @@ class IpTestJSONController implements ContainerInjectableInterface
      * ANY METHOD mountpoint/
      * ANY METHOD mountpoint/index
      *
-     * @return string
+     * @return array
      */
     public function indexActionGet() : array
     {

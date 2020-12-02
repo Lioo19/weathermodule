@@ -67,7 +67,3 @@ namespace Anax\View;
         <input type="submit" class="JSONbutton" value="Validera">
     </form>
 </div>
-
-<!--
-<pre>
-<?= var_dump($data["defaultIp"]); ?> -->
