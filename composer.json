@@ -22,7 +22,7 @@
         }
     },
     "require": {
-        "php": ">7.1",
+        "php": ">7.2",
         "anax/anax-ramverk1-me": "^1.0.0",
         "anax/anax-cli": "^1.2",
         "anax/commons": "^2.0.0@alpha",
