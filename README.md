@@ -1,11 +1,10 @@
 # Weather Module for Anax framework (v1)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Lioo19/weathermodule/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Lioo19/weathermodule/?branch=master)
-
 [![Code Coverage](https://scrutinizer-ci.com/g/Lioo19/weathermodule/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Lioo19/weathermodule/?branch=master)
-
 [![Build Status](https://scrutinizer-ci.com/g/Lioo19/weathermodule/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Lioo19/weathermodule/build-status/master)
-
 [![Build Status](https://travis-ci.org/Lioo19/weathermodule.svg?branch=master)](https://travis-ci.org/Lioo19/weathermodule)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/lioo19/weathermodule)
+
 
 ### About module
 This module is part of a school project at Blekinge Institute of Technology, fall 2020.
